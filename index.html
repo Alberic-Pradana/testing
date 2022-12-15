@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="tampilkanAlert()">
+    <script>
+        function tampilkanAlert() {
+            alert("Hallo mas bagus");
+            alert("Selamat pagi!");
+            alert("Ini adalah gambar:");
+
+            var gambar = document.createElement("img");
+            gambar.src = "https://asset-a.grid.id/crop/0x0:1285x905/700x465/photo/2022/12/04/cristiano-ronaldo-1jpg-20221204045506.jpg";
+            gambar.alt = "Gambar";
+            document.body.appendChild(gambar);
+        }
+
+    </script>
+</body>
+
+</html>
